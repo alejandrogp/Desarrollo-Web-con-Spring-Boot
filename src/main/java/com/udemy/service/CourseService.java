@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service("courseService")
+
 public interface CourseService {
 
     public abstract List<Course> listAllCourses();
