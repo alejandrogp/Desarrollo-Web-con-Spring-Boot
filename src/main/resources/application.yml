@@ -4,7 +4,7 @@ banner:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/lportal
+    url: jdbc:mysql://localhost:3306/lportal?useSSL=false
     username: root
     password: root
   jpa:
