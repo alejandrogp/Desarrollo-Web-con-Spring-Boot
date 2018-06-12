@@ -72,4 +72,9 @@ public class Course {
     public void setHours(int hours) {
         this.hours = hours;
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
